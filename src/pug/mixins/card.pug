@@ -1,0 +1,10 @@
+mixin header__card(href, span, title)
+    .header__card
+        .card__img-wrapper
+            svg(width="160" height="90" class="card__pic")
+                use(xlink:href="./img/svg-sprite.svg#" + href)
+        p.card__title
+            span.title--green= span + " "
+            =title
+        p.card__desc
+            block

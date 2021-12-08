@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Главная</title>
+    <!-- Подключение шрифтов-->
+    <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&amp;family=Roboto:wght@300;400;700&amp;display=swap" rel="stylesheet"/>
+    <!-- Подключение стилей-->
+    <link rel="stylesheet" href="./css/main.css"/>
+  </head>
+  <body>
+    <div class="overlay" id="overlay"></div>
+    <header class="header">
+      <div class="container">
+        <div class="header__top">
+          <div class="col">
+            <div class="top__content"><a class="header__logo" href="index.html">
+                <svg class="logo__pic">
+                  <use xlink:href="./img/svg-sprite.svg#logo"></use>
+                </svg></a>
+              <nav class="header__nav">
+                <div class="header__nav__links"><a class="header__nav__link" href="#!">ПРОДУКТЫ</a><a class="header__nav__link" href="#!">ТЕХНОЛОГИИ</a><a class="header__nav__link" href="#!">EXPERIENCE</a></div>
+              </nav>
+            </div>
+          </div>
+          <div class="header__nav__social">
+            <div class="row"><a class="header__nav__links--social" href="#!">
+                <svg class="link--social" width="48" height="48">
+                  <use xlink:href="./img/svg-sprite.svg#twitter"></use>
+                </svg></a><a class="header__nav__links--social" href="#!">
+                <svg class="link--social" width="48" height="48">
+                  <use xlink:href="./img/svg-sprite.svg#instagram"></use>
+                </svg></a></div>
+          </div>
+        </div>
+        <div class="mobile-menu">
+          <button class="button--mobile" id="buttonMobile">
+            <svg class="button__pic" width="56" height="56">
+              <use xlink:href="./img/svg-sprite.svg#buttonMobile"></use>
+            </svg>
+          </button>
+          <nav class="nav--mobile" id="navMobile">
+            <div class="mobile-menu__content">
+              <div class="nav--mobile__top"><a class="header__logo" href="index.html">
+                  <svg class="logo__pic">
+                    <use xlink:href="./img/svg-sprite.svg#logo"></use>
+                  </svg></a>
+                <div class="mobile__links"><a class="header__nav__link mobile__link" href="#!">ПРОДУКТЫ</a><a class="header__nav__link mobile__link" href="#!">ТЕХНОЛОГИИ</a><a class="header__nav__link mobile__link" href="#!">EXPERIENCE</a>
+                  <div class="mobile__links--social"></div>
+                  <div class="row"></div>
+                </div>
+              </div>
+              <div class="nav--mobile__bottom">
+                <div class="mobile__row"><a class="mobile__links--social" href="#!">
+                    <svg class="link--social" width="48" height="48">
+                      <use xlink:href="./img/svg-sprite.svg#twitter"></use>
+                    </svg></a><a class="mobile__links--social" href="#!">
+                    <svg class="link--social" width="48" height="48">
+                      <use xlink:href="./img/svg-sprite.svg#instagram"></use>
+                    </svg></a></div>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <div class="header__content">
+          <div class="header__desc">
+            <h1 class="heading--main">ПРЕИМУЩЕСТВА G-SYNC</h1>
+            <p class="header__text"></p>Каждый монитор с технологией G-SYNC проходит серьезное тестирование и контроль качества для обеспечения максимальной производительности. Сотни мониторов проходят контроль качества, но только прошедшие все тесты получают сертификацию G-SYNC.
+          </div>
+          <div class="header__cards">
+            <div class="row">
+              <div class="header__card">
+                <div class="card__img-wrapper">
+                  <svg class="card__pic" width="160" height="90">
+                    <use xlink:href="./img/svg-sprite.svg#hdr"></use>
+                  </svg>
+                </div>
+                <p class="card__title"><span class="title--green">HDR </span>DISPLAY
+                </p>
+                <p class="card__desc">Получите более широкий и комфортный для восприятия диапазон цветовой гаммы, чем в обычных мониторах.
+                </p>
+              </div>
+              <div class="header__card">
+                <div class="card__img-wrapper">
+                  <svg class="card__pic" width="160" height="90">
+                    <use xlink:href="./img/svg-sprite.svg#input"></use>
+                  </svg>
+                </div>
+                <p class="card__title"><span class="title--green">INPUT </span>LAG
+                </p>
+                <p class="card__desc">Мониторы с технологией G&#8209;SYNC обеспечивают минимальную задержку между нажатием клавиш и результатом на экране, что очень важно для геймеров.
+                </p>
+              </div>
+              <div class="header__card">
+                <div class="card__img-wrapper">
+                  <svg class="card__pic" width="160" height="90">
+                    <use xlink:href="./img/svg-sprite.svg#refresh"></use>
+                  </svg>
+                </div>
+                <p class="card__title"><span class="title--green">HIGH REFRESH </span>RATE
+                </p>
+                <p class="card__desc">NVIDIA тесно сотрудничает с производителями мониторов, чтобы вывести на рынок широкий спектр дисплеев с высокой частотой обновления экрана от 75 до 360 Гц.
+                </p>
+              </div>
+              <div class="header__card">
+                <div class="card__img-wrapper">
+                  <svg class="card__pic" width="160" height="90">
+                    <use xlink:href="./img/svg-sprite.svg#wideColor"></use>
+                  </svg>
+                </div>
+                <p class="card__title"><span class="title--green">WIDE COLOR  </span>GAMUT
+                </p>
+                <p class="card__desc">Современные мониторы G&#8209;SYNC ULTIMATE поддерживают цветовой охват DCI&#8209;P3, обеспечивая более реалистичную цветопередачу с плавными переходами.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="window-buy">
+            <form class="form-buy" id="formBuy">
+              <button class="button-close" id="buttonClose"></button>
+              <h2 class="heading--main">ПРЕИМУЩЕСТВА G&#8209;SYNC</h2>
+              <input class="input" type="text" placeholder="Имя" required="required"/>
+              <input class="input" type="email" placeholder="Mail" required="required"/>
+              <div class="row justify-content-center">
+                <input class="button button--buy" type="submit" value="КУПИТЬ" id="buttonBuy"/>
+              </div>
+            </form>
+            <div class="row justify-content-center">
+              <button class="button" id="buttonStart">КУПИТЬ</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <script src="js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,58 @@
+.header__cards {
+  margin-bottom: 47px;
+}
+
+.header__card {
+  margin-bottom: 50px;
+  width: 290px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &:hover .card__pic {
+    fill: #77b80040;
+    stroke: #77b900;
+  }
+
+  @media (min-width: 1110px) {
+    margin-bottom: 0;
+    width: 252px;
+  }
+}
+
+.card__img-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.card__title {
+  margin-bottom: 12px;
+  font-size: 26px;
+  font-family: "Play", sans-serif;
+  letter-spacing: 0.25px;
+  line-height: 36px;
+  text-align: center;
+
+  @media (min-width: 1110px) {
+    text-align: left;
+  }
+}
+
+.title--green {
+  color: #77b900;
+  font-weight: 700;
+}
+
+.card__pic {
+  margin-bottom: 28px;
+  fill: none;
+  stroke: #fff;
+  transition: all 0.2s ease-in;
+}
+
+.card__desc {
+  color: #e1e1e1;
+  letter-spacing: 0.45px;
+  line-height: 28px;
+}

@@ -1,0 +1,45 @@
+.form-buy {
+  position: fixed;
+  top: 48.9%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  padding: 69px 10px;
+  width: 290px;
+  text-align: center;
+  background-color: #000;
+  border: 2px solid #77b900;
+  box-shadow: 0px 0px 10px #77b900;
+  z-index: 11;
+
+  @media (min-width: 1110px) {
+    padding: 69px 92px;
+    width: 540px;
+  }
+}
+
+.form-buy--active {
+  display: flex;
+}
+
+.input {
+  display: block;
+  padding: 14px 21px;
+  margin-bottom: 20px;
+  height: 56px;
+  outline: none;
+  border: none;
+  line-height: 28px;
+  letter-spacing: 0.3px;
+  font-size: 16px;
+
+  &::-webkit-input-placeholder {
+    color: #000;
+  }
+
+  &::-moz-placeholder {
+    color: #000;
+  }
+}

@@ -1,0 +1,37 @@
+header {
+  background-image: url(../img/bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  @media (min-width: 1110px) {
+    background-position: 50% 91.75px;
+    background-size: 1440px;
+  }
+}
+
+.header__content {
+  padding: 56px 0;
+
+  @media (min-width: 1110px) {
+    padding-bottom: 125px;
+  }
+}
+
+.heading--main {
+  font-family: "Play", sans-serif;
+  letter-spacing: 0.25px;
+  line-height: 36px;
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.header__desc {
+  margin: 0 auto;
+  margin-bottom: 50px;
+  max-width: 730px;
+  text-align: center;
+  letter-spacing: 0.41px;
+  line-height: 28px;
+}
