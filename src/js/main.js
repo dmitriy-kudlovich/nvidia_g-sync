@@ -1,17 +1,17 @@
-$("#buttonMobile").click(() => {
+$("#buttonMobile").click(function () {
   $("#navMobile").toggleClass("nav--mobile--active");
   $("html").toggleClass("overflow-hidden");
   $("#overlay").toggleClass("overlay--active");
   $("#buttonMobile").toggleClass("button--mobile--active");
 });
 
-$("#buttonStart").click(() => {
+$("#buttonStart").click(function () {
   $("#formBuy").toggleClass("form-buy--active");
   $("#overlay").toggleClass("overlay--active z-index");
   $("html").toggleClass("overflow-hidden");
 });
 
-$("#buttonClose").click((event) => {
+$("#buttonClose").click(function () {
   event.preventDefault();
   $("#formBuy").removeClass("form-buy--active");
   $("#overlay").removeClass("overlay--active z-index");
