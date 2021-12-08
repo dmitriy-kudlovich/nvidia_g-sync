@@ -1,3 +1,5 @@
+svg4everybody();
+
 $("#buttonMobile").click(function () {
   $("#navMobile").toggleClass("nav--mobile--active");
   $("html").toggleClass("overflow-hidden");
