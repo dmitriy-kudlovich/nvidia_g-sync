@@ -13,7 +13,7 @@ $("#buttonStart").click(function () {
   $("html").toggleClass("overflow-hidden");
 });
 
-$("#buttonClose").click(function () {
+$("#buttonClose").click(function (event) {
   event.preventDefault();
   $("#formBuy").removeClass("form-buy--active");
   $("#overlay").removeClass("overlay--active z-index");
